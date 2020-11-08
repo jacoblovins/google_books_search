@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(177, 177, 177);
+}
+.btn-primary {
+    margin-left: 10px;
+}
+.btn-danger {
+    margin-left: 10px;
+}

@@ -1,0 +1,15 @@
+
+h1 {
+  color: rgb(202, 202, 202);
+}
+.links {
+  margin-left: 60%;
+  font-size: 20px;
+}
+.saved {
+  padding-left: 13px;
+  border-left: 1px grey solid;
+}
+.search {
+  padding-right: 10px;
+}
