@@ -19,8 +19,10 @@ app.use(routes);
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/books",
   {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
     useCreateIndex: true,
-    useNewUrlParser: true
+    useFindAndModify: false
   }
 );
 
