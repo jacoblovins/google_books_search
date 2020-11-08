@@ -5,7 +5,7 @@
 
 ## Description
 
-This book search application lets you keep track of your expenses online and offline. If you lose internet connection, no worries! This app will still record your expenses and when an internet connection is established, it will send all of the stored, offline data to the database to be permanently stored. By using a Mongodb database and Mongoose, the user is able to add any money they have gained or spent and keep track of their expenses by means of a clean, interactive chart. This app utilizes MongoDB, Mongoose, IndexedDb, Express, Express router, Node.js, and more.
+This book search application lets you search for any book google offers using their API. If you like a book that you see, you can either save it to look at it later or click view to go directly to the page on google books. This app will save all of your books and when you search, it will not display the duplicate books you have already saved. From your saved book list you can view the book on goole books or delete it from the list. This app uses a Mongodb database and Mongoose so that your saved list will always be there for you whenever you come back. This app utilizes React.js, Axios, MongoDB, Mongoose, Express, Express router, Node.js, and more.
 
 ## [Click Here to check it out!](https://young-woodland-55260.herokuapp.com/)
 
