@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
-class Nav extends Component {
+function Nav() {
 
-  render() {
     return (
       <nav className="navbar justify-content-center navbar-expand-lg bg-dark mb-2">
         <h1>Google Books Search</h1>
@@ -15,7 +14,6 @@ class Nav extends Component {
 
       </nav>
     );
-  }
 }
 
 export default Nav;
